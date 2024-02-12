@@ -15,4 +15,4 @@ const updateInnerHTML = function (selector, htmlString){
     
     updateInnerHTML('section',template);
     
-console.log(template)
+console.log(template);
