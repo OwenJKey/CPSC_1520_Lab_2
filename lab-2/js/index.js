@@ -1,4 +1,5 @@
 
+
 function strong(string){
     return `<strong>${string}</strong>`;
     }
@@ -13,6 +14,6 @@ const updateInnerHTML = function (selector, htmlString){
     document.querySelector(selector).insertAdjacentHTML('afterend', htmlString);
     }
     
-    updateInnerHTML('section',template);
+updateInnerHTML('section',template);
     
 console.log(template);
